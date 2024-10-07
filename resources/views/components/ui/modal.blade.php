@@ -7,7 +7,8 @@
             flex flex-col gap-6 z-50
         ">
         <div>
-            <button class="bg-[#1E1E2C] hover:bg-[#313145] transition duration-300 ease-in-out p-[8px] rounded-md" wire:click="$set('modal', false)">
+            <button class="bg-[#1E1E2C] hover:bg-[#313145] transition duration-300 ease-in-out p-[8px] rounded-md"
+            wire:click="$set('modal', false)">
                 <x-ui.icons.x class="w-[32px] h-[32px] text-white" />
             </button>
         </div>
